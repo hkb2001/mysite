@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    width: 100%;
+    background-color: #E0EBE8;
+    height: 75px;
+    line-height: 75px;
+    padding: 0 100px;
+    position: sticky;
+
+}
+nav ul {
+    float: right;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #45b29a;
+    font-size: 20px;
+    padding: 0 32px;
+}
+nav ul li a:hover {
+    color: #545454;
+    transition: .4s;
+}
+nav .pic {
+    float: left;
+}
+.mid {
+    /* float: left; */
+    color: #45b29a;
+    background-color: #E0EBE8;
+    text-align: center;
+}
+.mid p {
+    padding: 25px ;
+}
+.me {
+    padding-top: 100px;
+    font-family: 'Calligraffitti', cursive;
+    font-size: 4.9em;
+    color: #1E836C;
+}
+footer {
+    text-align: center;
+    background-color: #E0EBE8;
+    color: #45b29a;
+}
+footer li {
+    list-style: none;
+}
+footer li a {
+    color: #45b29a;
+    text-decoration: none;
+}
+footer li a:hover {
+    transition: .5s;
+    color: black;
+}
+footer ul {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5em;
+}
+.trademark {
+    margin-top: 100px;
+    padding-bottom: 30px;
+}
+p {
+    font-family: brandon-grotesque,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+}
+.info {
+    text-align: center;
+    padding-top: 70px;
+
+}
+.info h2 {
+    color: #1E836C;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+}
+.info p {
+    color:#545454;
+    text-align: center;
+    text-justify: inter-word;
+    font-size: 1.5em;
+    display: block;
+    margin: 0px 340px 0px 340px;
+    overflow-wrap: break-word;
+
+}
+.info img {
+    height: 150px;
+    width: 150px;
+    margin-bottom: 20px;
+}
+hr {
+    align-items: center;
+    border-style: dotted none none none;
+    width: 5%;
+    border-color: gray;
+    border-width: 5px;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.after-info {
+    text-align: center;
+}
+.after-info h2 {
+    color: #1E836C;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+}
+.need {
+    padding-left: 300px
+}
+.need p {
+    color:#545454;
+    font-size: 1.3em;
+    padding-left: 357px;
+    display: block;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-right: 200px;
+}
+.need h3 {
+    font-size: 2em;
+    color: #45b29a;
+    font-family: brandon-grotesque,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    font-weight: 500;
+    line-height: 1.1;
+    margin: 50px 0px 30px 0px;
+}
+.freelance {
+    text-align: center;
+}
+.freelance h2 {
+    color: #1E836C;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+}
+.freelance h3 {
+    font-size: 1.6em;
+    color: #45b29a;
+    font-family: brandon-grotesque,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    font-weight: 500;
+    line-height: 1.1;
+    margin: 50px 0px 30px 0px;
+}
+.freelance p {
+    text-align: center;
+    text-justify: inter-word;
+    color:#545454;
+    font-size: 1.3em;
+    padding-left: 357px;
+    display: block;
+    margin-right: 300px;
+}
+.btn {
+    display: inline-flex;
+    height: 50px;
+    padding: 0;
+    border: none;
+    outline: none;
+    background:#45b29a ;
+    color:#545454;
+    border-radius: 5px;
+    overflow: hidden;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    margin: 50px 0;
+}
+.btn_img , .btn_text {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 24px;
+    height: 100%;
+}
+.btn:hover {
+    background:#26584e ;
+    color: white;
+    transition: .5s;
+}

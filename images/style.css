@@ -1,0 +1,349 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: grey;
+
+}
+button{
+    font-family: "Poppins", sans-serif;
+
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.backlayer{
+    height: max-content;
+    box-sizing: border-box;
+}
+.viewlayer{
+    margin: 50px 20px 0px 10px;
+    padding:30px 10px 10px 10px;
+    background-color: white;
+    height: auto;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar ul{
+    display:flex;
+}
+.navbar li{
+    padding-right: 50px;
+    list-style: none;
+
+}
+.navbar li a{
+    text-decoration: none;
+    color: grey;
+}
+.navbar li a:hover{
+    color: black;
+}
+.logo h1{
+    margin-top:-40px;
+    padding-left: 40px;
+    padding-right: 100px;
+}
+.btn1{
+    width: 100px;
+    border:none;
+    padding:10px 10px 10px 10px;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+}
+.btn2{
+    width: 100px;
+    border:none;
+    padding:10px 10px 10px 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.btn1:hover{
+    background-color: black;
+    color: white;
+    transition: .4s;
+}
+.btn2:hover{
+    background-color: white;
+    color: black;
+    transition: .4s;
+}
+
+.boxes{
+    display: flex;
+    padding:20px 35px 0px 45px;
+}
+.box1{
+    flex:1;
+    background-color: lightgray;
+    padding:60px 0px 30px 30px;
+}
+.box2{
+    flex: 1 ;
+}
+.image{
+    display: flex;
+}
+.image img{
+    margin-top: 2px;
+    padding-right: 5px;
+    height: 12px;
+}
+.image p{
+    color: gray;
+    font-size: 0.9rem;
+}
+.box1-txt{
+    padding-top: 15px;
+    font-size: 1.5rem;
+}
+.box1-txt img{
+    height: 30px;
+    padding-left: 125px;
+}
+.box1-txt p{
+    font-size: 1.0rem;
+    color: gray;
+}
+.btn3{
+    width: 100px;
+    border:none;
+    margin-top: 20px;
+    padding:10px 10px 10px 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.btn3:hover{
+    background-color: white;
+    color: black;
+    transition: .4s;
+}
+.box2{
+    background-color:#D24AD2;
+	background-image: linear-gradient(to right, #007ACC, #D24AD2, #6C63FF,#D24AD2);
+}
+.app{
+    display: flex;
+    float: right;
+    margin-top: 2px;
+    height: 20px;
+    /* background-color: white; */
+}
+.apple p{
+    float: right;
+    /* background-color: white; */
+}
+.box2 .apple{
+    background-color: white;
+    color: black;
+}
+.works{
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 55px;
+}
+.works p{
+    padding-top: 15px;
+    color:gray;
+    font-size: .8rem;
+    
+}
+.info{
+    display: flex;
+    text-align: center;
+    padding-top: 70px;
+    justify-content: space-around;
+}
+.info p{
+    color:gray;
+}
+.info .information img{
+    height: 30vh;
+}
+.info .data img{
+    height: 25vh;
+}
+.info .card img{
+    height: 25vh;
+}
+.info .data h3{
+    padding-top: 25px;
+}
+.info .card h3{
+    padding-top: 25px;
+}
+
+.iphone .phone{
+    display: flex;
+}
+.iphone{
+    padding:100px 0px 30px 90px;
+}
+.iphone .box3 p{
+    color: gray;
+}
+.iphone .box3 h3{
+    padding-top: 50px;
+}
+.phone .x{
+    padding-left: 100px;
+    padding-right: 200px;
+    height: 50vh;
+}
+
+.box3 .btn1box3 img{
+    height: 5vh;
+}
+
+.btn1box3 button{
+    display: flex;
+    background-color: white;
+    border-radius: 8px;
+    padding:8px 20px 8px 5px;
+    cursor: pointer;
+    border: 2px solid gray;
+}
+.btn1box3 p{
+    padding-left: 20px;
+    text-align: center;
+}
+.btn1box3{
+    padding-top: 20px;
+}
+.btn2box3{
+    padding-top: 10px;
+}
+.btn2box3 button{
+    display: flex;
+    background-color: white;
+    border-radius: 8px;
+    padding:8px 20px 8px 5px;
+    cursor: pointer;
+    border: 2px solid gray;
+}
+.btn2box3 img{
+    height: 5vh;
+}
+.btn2box3 p{
+    padding-left: 20px;
+    text-align: center;
+}
+.getstarted .para .box4{
+    margin-top: 50px;
+    padding-left: 270px;
+}
+.getstarted .para .box4 p{
+    color: gray;
+    font-size: .9rem;
+}
+.getstarted .para .box4 button{
+    display: flex;
+    background-color: white;
+    border-radius: 8px;
+    padding:8px 20px 8px 20px;
+    cursor: pointer;
+    border: 2px solid gray
+}
+.getstarted .para {
+    display: flex;
+}
+.getstarted .iphone2{
+    padding-left: 100px;
+}
+.iphone2 img{
+    height: 50vh;
+}
+
+.newsletter{
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 55px;
+}
+.newsletter p{
+    color: gray;
+    font-size: .8rem;
+}
+.newsletter .inputtxt{
+    padding-top: 15px;
+}
+.newsletter .inputtxt input{
+    background-color: lightgray;
+    width: 300px;
+    border-radius: 8px;
+    border:none;
+    padding:15px 40px 15px 5px;
+}
+.newsletter .inputtxt button{
+    width: 100px;
+    border:none;
+    margin-top: 20px;
+    padding:10px 10px 10px 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-weight: 200;
+}
+.newsletter .inputtxt button:hover{
+    background-color: white;
+    color: black;
+    transition: .4s;
+}
+
+.foot{
+    display: flex;
+    margin: 50px 30px 30px 50px;
+    padding: 20px 30px 20px 30px;
+    background-color: #F8F8FA;
+}
+
+.box5{
+    padding: 40px 30px 0px 30px;
+}
+.box5 p{
+    padding-top:20px ;
+    color:gray;
+    font-size: 0.8rem;
+}
+.logo{
+    padding-top: 30px;
+}
+
+.logo img{
+    border: 2px solid #F8F8FA;
+    margin-right: 30px;
+    background-color: lightgray;
+    color: gray;
+    height: 3vh;
+}
+.box6{
+    padding: 40px 30px 0px 100px;
+}
+.box6  a{
+    padding-top:40px ;
+    text-decoration: none;
+    color: grey;
+}
+.box7{
+    padding: 40px 30px 0px 150px;
+}
+.box7 a{
+    padding-top:40px ;
+    text-decoration: none;
+    color: grey;
+}
+.box8{
+    padding: 40px 30px 0px 150px;
+}
+.box8 a{
+    padding-top:40px ;
+    text-decoration: none;
+    color: grey;
+}
